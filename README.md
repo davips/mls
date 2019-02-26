@@ -15,7 +15,18 @@ As an example, it currently generates the following output in a file:
 	abalone-3class, SG, RF, 0, 0, 8, 0.336869
 	abalone-3class, SG, RF, 0, 0, 9, 0.365523
 
+# Installation
+Clone this repository:
 
+	git clone https://github.com/active-learning/mysql2csv
+	
+Install sbt: https://www.scala-sbt.org/download.html
+
+Run:
+
+	cd mysql2csv
+	sbt run
+	
 # Database description
 
 table r (results)
