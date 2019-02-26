@@ -1,0 +1,7 @@
+dist
+.stack-work
+.stack-work-profile
+tricoll.prof
+tricoll.prof.html
+.idea/workspace.xml
+.idea/tasks.xml
