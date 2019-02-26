@@ -20,7 +20,7 @@ As an example, it currently generates the following output in a file:
 
 table r (results)
 
-	m: measure id (which accuracy measure to use,  (see * bellow for details)
+	m: measure id (which accuracy measure to use,  (see (1) bellow for details)
 	p: pool id (each run, fold, learner and strategy combination from 5x5-fold CV are represented by a pool)
 	v: the value of the measure
 
@@ -62,7 +62,7 @@ tables f, l, mea, run and t can be ignored.
 
 
 
-* -> A measure after t queries is a diferent measure than after t+1 queries)
+(1) -> A measure after t queries is a diferent measure than after t+1 queries)
 
 	Two types of measures are precalculated (to avoid messing around with confusion matrices):
 		balanced accuracy, with id = 100000000 + 10000*t where t is the query number)
