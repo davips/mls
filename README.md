@@ -1,5 +1,7 @@
 # mysql2csv
 This code extracts results from a mysql database.
+The dump.sql.gz file is known to work with MySQL Server version: 5.5.5-10.1.37-MariaDB-0+deb9u1 HDD, but not with MySQL Server version: 5.7.25-0ubuntu0.18.04.2 SSD due to row size issues.
+
 As an example, it currently generates the following output in a file:
 	
 	dataset, method, classifier, fold, run, query number, kappa
