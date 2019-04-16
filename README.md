@@ -5,7 +5,7 @@ https://drive.google.com/file/d/1tWQ380hHnPPsFPTRZfPH0uvYK8QV1lDg/view
 
 The dump.sql.gz file is known to work with MySQL Server version: 5.5.5-10.1.37-MariaDB-0+deb9u1 HDD, but not with MySQL Server version: 5.7.25-0ubuntu0.18.04.2 SSD due to row size issues.
 
-The results of this scripts are here:
+The results of this script are here:
 
 Complete results kappa
 
