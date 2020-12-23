@@ -1,5 +1,8 @@
 mls
 ===
+
+[This code was useful during my phd, please contact me if you need to put it to work in new versions of sbt and scala]
+
 Wrappers for Weka for Scala (at least at the moment).
 If you use this software in your research paper,
 please cite properly using the bibtex at the end or the alternatives provided by this DOI link:
